@@ -16,7 +16,11 @@ Storage Compare Pro - Complete Storage Encyclopedia
 </title>
 
 
-<meta name="description" content="Compare SSDs, HDDs, NAS storage, archival media, future storage technology and recommended storage products.">
+<meta name="description" content="A complete guide comparing SSDs, HDDs, NAS storage, archival storage, future data storage technology, and storage capacity comparisons.">
+
+
+<meta name="keywords" content="storage comparison, SSD, HDD, NAS, M-DISC, DNA storage, data storage, future storage technology">
+
 
 
 <!-- Google AdSense -->
@@ -26,11 +30,14 @@ crossorigin="anonymous"></script>
 
 
 
+
 <style>
 
 
 *{
+
 box-sizing:border-box;
+
 }
 
 
@@ -45,7 +52,10 @@ background:#0f172a;
 
 color:#e2e8f0;
 
+line-height:1.6;
+
 }
+
 
 
 
@@ -59,7 +69,6 @@ padding:60px 20px;
 text-align:center;
 
 }
-
 
 
 
@@ -83,13 +92,20 @@ font-size:22px;
 
 
 
+
 nav{
 
 background:#020617;
 
-padding:18px;
+padding:15px;
 
 text-align:center;
+
+position:sticky;
+
+top:0;
+
+z-index:10;
 
 }
 
@@ -101,9 +117,11 @@ color:white;
 
 text-decoration:none;
 
-margin:15px;
+margin:8px;
 
 font-weight:bold;
+
+font-size:15px;
 
 }
 
@@ -114,6 +132,7 @@ nav a:hover{
 color:#38bdf8;
 
 }
+
 
 
 
@@ -134,6 +153,7 @@ padding:25px;
 
 
 
+
 .section{
 
 background:#1e293b;
@@ -148,11 +168,11 @@ margin-bottom:30px;
 
 
 
-
-
-h2{
+.section h2{
 
 color:#38bdf8;
+
+font-size:30px;
 
 }
 
@@ -197,12 +217,13 @@ border-radius:15px;
 
 
 
-
 table{
 
 width:100%;
 
 border-collapse:collapse;
+
+overflow:hidden;
 
 }
 
@@ -250,9 +271,9 @@ border-radius:8px;
 
 cursor:pointer;
 
+font-weight:bold;
+
 }
-
-
 
 
 
@@ -261,6 +282,7 @@ button:hover{
 background:#0369a1;
 
 }
+
 
 
 
@@ -276,7 +298,10 @@ border:none;
 
 margin:5px;
 
+font-size:16px;
+
 }
+
 
 
 
@@ -298,11 +323,9 @@ text-decoration:none;
 
 font-weight:bold;
 
-margin-top:10px;
+margin-top:15px;
 
 }
-
-
 
 
 
@@ -338,6 +361,20 @@ margin-bottom:30px;
 
 
 
+.highlight{
+
+background:#0c4a6e;
+
+padding:20px;
+
+border-radius:12px;
+
+}
+
+
+
+
+
 footer{
 
 background:#020617;
@@ -345,6 +382,18 @@ background:#020617;
 padding:30px;
 
 text-align:center;
+
+}
+
+
+
+
+
+.small{
+
+font-size:14px;
+
+color:#94a3b8;
 
 }
 
@@ -372,12 +421,20 @@ text-align:center;
 
 
 <h1>
-Storage Compare Pro
+💾 Storage Compare Pro
 </h1>
 
 
 <p>
-From books and retro games to SSDs, NAS systems and future storage technology.
+From books and retro games to SSDs, NAS systems, and future storage technology.
+</p>
+
+
+
+<p class="small">
+
+Last updated: July 2026
+
 </p>
 
 
@@ -387,31 +444,58 @@ From books and retro games to SSDs, NAS systems and future storage technology.
 
 
 
+
+
 <nav>
 
 
-<a href="index.html">
-Home
+<a href="#comparison">
+Storage Comparison
 </a>
 
 
-<a href="articles.html">
-Articles
+<a href="#nas">
+NAS Storage
 </a>
 
 
-<a href="about.html">
-About
+<a href="#longterm">
+Long-Term Storage
 </a>
 
 
-<a href="contact.html">
-Contact
+<a href="#future">
+Future Storage
 </a>
 
 
-<a href="privacy.html">
-Privacy
+<a href="#products">
+Recommended Products
+</a>
+
+
+<a href="#calculator">
+Storage Calculator
+</a>
+
+
+<a href="#games">
+Retro Games
+</a>
+
+
+<a href="#media">
+Media Storage
+</a>
+
+
+<a href="#research">
+Research Papers
+</a>
+
+
+<a href="#faq">
+FAQ
 </a>
 
 
@@ -421,8 +505,8 @@ Privacy
 
 
 
-
 <main>
+
 
 
 
@@ -436,12 +520,11 @@ Advertisement Space
 728x90
 
 </div>
-
-<div class="section">
+<div class="section" id="comparison">
 
 
 <h2>
-Complete Storage Technology Comparison
+📊 Complete Storage Technology Comparison
 </h2>
 
 
@@ -468,6 +551,10 @@ Lifespan
 </th>
 
 <th>
+Approximate Cost
+</th>
+
+<th>
 Best Use
 </th>
 
@@ -487,7 +574,7 @@ NVMe SSD
 </td>
 
 <td>
-3,000-14,000 MB/s
+3,000 - 14,000 MB/s
 </td>
 
 <td>
@@ -495,7 +582,11 @@ NVMe SSD
 </td>
 
 <td>
-Gaming, professional work, operating systems
+Medium - High
+</td>
+
+<td>
+Gaming, operating systems, professional work
 </td>
 
 </tr>
@@ -515,11 +606,15 @@ SATA SSD
 </td>
 
 <td>
-450-600 MB/s
+450 - 600 MB/s
 </td>
 
 <td>
 5-10 years
+</td>
+
+<td>
+Medium
 </td>
 
 <td>
@@ -543,7 +638,7 @@ Hard Disk Drive (HDD)
 </td>
 
 <td>
-80-250 MB/s
+80 - 250 MB/s
 </td>
 
 <td>
@@ -551,7 +646,11 @@ Hard Disk Drive (HDD)
 </td>
 
 <td>
-Cheap bulk storage
+Low
+</td>
+
+<td>
+Bulk storage and backups
 </td>
 
 </tr>
@@ -571,11 +670,15 @@ USB Flash Drive
 </td>
 
 <td>
-20-400 MB/s
+20 - 400 MB/s
 </td>
 
 <td>
 3-10 years
+</td>
+
+<td>
+Medium
 </td>
 
 <td>
@@ -591,11 +694,43 @@ Portable files
 <tr>
 
 <td>
+SD / microSD Card
+</td>
+
+<td>
+16GB - 2TB
+</td>
+
+<td>
+10 - 300 MB/s
+</td>
+
+<td>
+3-10 years
+</td>
+
+<td>
+Medium
+</td>
+
+<td>
+Phones, cameras, drones
+</td>
+
+</tr>
+
+
+
+
+
+<tr>
+
+<td>
 Cloud Storage
 </td>
 
 <td>
-GB to Petabytes
+GB - Petabytes
 </td>
 
 <td>
@@ -607,7 +742,11 @@ Provider dependent
 </td>
 
 <td>
-Remote backups
+Subscription
+</td>
+
+<td>
+Remote access and backups
 </td>
 
 </tr>
@@ -623,7 +762,7 @@ M-DISC
 </td>
 
 <td>
-25GB-100GB/disc
+25GB - 100GB per disc
 </td>
 
 <td>
@@ -632,6 +771,10 @@ Optical drive speed
 
 <td>
 100+ years claimed
+</td>
+
+<td>
+Medium
 </td>
 
 <td>
@@ -647,7 +790,7 @@ Personal archives
 <tr>
 
 <td>
-LTO Tape
+LTO Magnetic Tape
 </td>
 
 <td>
@@ -663,7 +806,75 @@ Up to 30TB+
 </td>
 
 <td>
+Very low per TB
+</td>
+
+<td>
 Professional archives
+</td>
+
+</tr>
+
+
+
+
+
+<tr>
+
+<td>
+DNA Storage
+</td>
+
+<td>
+Petabytes per gram potential
+</td>
+
+<td>
+Very slow
+</td>
+
+<td>
+Thousands of years possible
+</td>
+
+<td>
+Extremely expensive
+</td>
+
+<td>
+Future archives
+</td>
+
+</tr>
+
+
+
+
+
+<tr>
+
+<td>
+5D Quartz Crystal Storage
+</td>
+
+<td>
+Petabyte-scale potential
+</td>
+
+<td>
+Experimental
+</td>
+
+<td>
+Thousands of years possible
+</td>
+
+<td>
+Not commercially available
+</td>
+
+<td>
+Future civilization archives
 </td>
 
 </tr>
@@ -687,19 +898,353 @@ Professional archives
 
 
 <h2>
-NAS Storage Explained
+📦 Storage Size Examples
 </h2>
+
+
+
+<div class="grid">
+
+
+
+<div class="card">
+
+
+<h3>
+1 Gigabyte (GB)
+</h3>
 
 
 <p>
 
-A NAS (Network Attached Storage) is a dedicated storage system connected to your network. It allows computers, phones and media devices to access files from one central location.
+Approximately:
+
+</p>
+
+
+<ul>
+
+<li>
+Hundreds of books
+</li>
+
+<li>
+Thousands of photos
+</li>
+
+<li>
+A few minutes of high quality video
+</li>
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+1 Terabyte (TB)
+</h3>
+
+
+<p>
+
+Approximately:
+
+</p>
+
+
+<ul>
+
+<li>
+250 HD movies
+</li>
+
+<li>
+250,000 photos
+</li>
+
+<li>
+Hundreds of games
+</li>
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+1 Petabyte (PB)
+</h3>
+
+
+<p>
+
+Approximately:
+
+</p>
+
+
+<ul>
+
+<li>
+Millions of photos
+</li>
+
+<li>
+Thousands of HD movies
+</li>
+
+<li>
+Large scientific datasets
+</li>
+
+</ul>
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+Human Brain Comparison
+</h3>
+
+
+<p>
+
+Some scientific estimates compare human brain information capacity to roughly:
+
+</p>
+
+
+<h3>
+~2.5 Petabytes
+</h3>
+
+
+<p>
+
+The exact number is still debated.
+
+</p>
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="section">
+
+
+<h2>
+🕒 Storage Technology Timeline
+</h2>
+
+
+
+<table>
+
+
+<tr>
+
+<th>
+Period
+</th>
+
+<th>
+Technology
+</th>
+
+<th>
+Approximate Capacity
+</th>
+
+</tr>
+
+
+
+
+<tr>
+
+<td>
+1980s
+</td>
+
+<td>
+Floppy Disk
+</td>
+
+<td>
+1.44 MB
+</td>
+
+</tr>
+
+
+
+
+
+<tr>
+
+<td>
+1990s
+</td>
+
+<td>
+CD-ROM
+</td>
+
+<td>
+700 MB
+</td>
+
+</tr>
+
+
+
+
+
+<tr>
+
+<td>
+2000s
+</td>
+
+<td>
+DVD
+</td>
+
+<td>
+4.7 - 8.5 GB
+</td>
+
+</tr>
+
+
+
+
+
+<tr>
+
+<td>
+2010s
+</td>
+
+<td>
+Consumer SSDs
+</td>
+
+<td>
+Hundreds of GB to TB
+</td>
+
+</tr>
+
+
+
+
+
+<tr>
+
+<td>
+2020s
+</td>
+
+<td>
+NVMe SSDs
+</td>
+
+<td>
+Multiple TB
+</td>
+
+</tr>
+
+
+
+
+
+<tr>
+
+<td>
+Future
+</td>
+
+<td>
+DNA / Crystal / Atomic Storage
+</td>
+
+<td>
+Potentially Petabytes and beyond
+</td>
+
+</tr>
+
+
+
+</table>
+
+
+</div>
+  
+
+<div class="section" id="nas">
+
+
+<h2>
+💾 NAS Storage Explained
+</h2>
+
+
+
+<p>
+
+A NAS (Network Attached Storage) is a dedicated storage device connected to your network. It allows multiple computers, phones, and smart devices to access files from one central location.
 
 </p>
 
 
 
 <div class="grid">
+
+
 
 
 
@@ -724,16 +1269,31 @@ Capacity:
 
 <p>
 
-Uses:
-
-<br>
-
-Photos, movies, backups, personal cloud
+Best for:
 
 </p>
 
 
+<ul>
+
+<li>
+Family photo backups
+</li>
+
+<li>
+Movies and music servers
+</li>
+
+<li>
+Personal cloud storage
+</li>
+
+</ul>
+
+
 </div>
+
+
 
 
 
@@ -760,16 +1320,31 @@ Capacity:
 
 <p>
 
-Uses:
-
-<br>
-
-Media servers and small businesses
+Best for:
 
 </p>
 
 
+<ul>
+
+<li>
+Large media libraries
+</li>
+
+<li>
+Small businesses
+</li>
+
+<li>
+Multiple users
+</li>
+
+</ul>
+
+
 </div>
+
+
 
 
 
@@ -796,20 +1371,36 @@ Hundreds of TB to Petabytes
 
 <p>
 
-Uses:
-
-<br>
-
-Companies and research facilities
+Best for:
 
 </p>
 
 
+<ul>
+
+<li>
+Companies
+</li>
+
+<li>
+Research facilities
+</li>
+
+<li>
+Large archives
+</li>
+
+</ul>
+
+
 </div>
 
 
 
+
 </div>
+
+
 
 
 
@@ -817,7 +1408,7 @@ Companies and research facilities
 
 
 <h3>
-RAID Protection Types
+RAID Storage Protection
 </h3>
 
 
@@ -829,11 +1420,11 @@ RAID Protection Types
 <tr>
 
 <th>
-RAID
+RAID Type
 </th>
 
 <th>
-Description
+Purpose
 </th>
 
 </tr>
@@ -848,10 +1439,11 @@ RAID 0
 </td>
 
 <td>
-Maximum speed but no protection
+Maximum speed but no data protection
 </td>
 
 </tr>
+
 
 
 
@@ -863,10 +1455,11 @@ RAID 1
 </td>
 
 <td>
-Data mirrored on multiple drives
+Mirrors data between drives
 </td>
 
 </tr>
+
 
 
 
@@ -878,10 +1471,11 @@ RAID 5
 </td>
 
 <td>
-Balance between storage and protection
+Balance between capacity and protection
 </td>
 
 </tr>
+
 
 
 
@@ -893,7 +1487,7 @@ RAID 6
 </td>
 
 <td>
-Extra protection for large systems
+Protection against multiple drive failures
 </td>
 
 </tr>
@@ -914,118 +1508,166 @@ Extra protection for large systems
 
 
 
-<div class="section">
+<div class="section" id="longterm">
 
 
 <h2>
-Long-Term Storage Available Today
+📀 Long-Term Storage Available Today
 </h2>
 
 
 
 <p>
-These technologies currently exist and are used for real-world storage.
+
+These technologies are currently available and used for real-world data preservation.
+
 </p>
 
 
 
-<table>
 
-
-<tr>
-
-<th>
-Technology
-</th>
-
-<th>
-Estimated Lifespan
-</th>
-
-<th>
-Advantages
-</th>
-
-</tr>
+<div class="grid">
 
 
 
-<tr>
 
-<td>
-💿 M-DISC
-</td>
 
-<td>
+
+<div class="card">
+
+
+<h3>
+📀 M-DISC
+</h3>
+
+
+<p>
+
+Durable optical discs designed for long-term archives.
+
+</p>
+
+
+<p>
+
+Estimated lifespan:
+
+<br>
+
 100+ years claimed
-</td>
 
-<td>
-Durable optical archive media
-</td>
+</p>
 
-</tr>
+
+</div>
 
 
 
 
-<tr>
-
-<td>
-📀 Archival Blu-ray
-</td>
-
-<td>
-50+ years
-</td>
-
-<td>
-Affordable cold storage
-</td>
-
-</tr>
 
 
 
+<div class="card">
 
-<tr>
 
-<td>
-📼 LTO Tape
-</td>
+<h3>
+📼 LTO Magnetic Tape
+</h3>
 
-<td>
+
+<p>
+
+Used by companies, governments, and data centers.
+
+</p>
+
+
+<p>
+
+Typical lifespan:
+
+<br>
+
 20-30 years
-</td>
 
-<td>
-Very low cost per TB
-</td>
+</p>
 
-</tr>
+
+</div>
 
 
 
 
-<tr>
 
-<td>
-🗄 Enterprise HDD
-</td>
 
-<td>
+
+<div class="card">
+
+
+<h3>
+💽 Archival Blu-ray
+</h3>
+
+
+<p>
+
+Optical storage designed for cold archives.
+
+</p>
+
+
+<p>
+
+Typical lifespan:
+
+<br>
+
+50+ years
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+🗄 Enterprise HDD Archives
+</h3>
+
+
+<p>
+
+Large capacity storage systems used for backups.
+
+</p>
+
+
+<p>
+
+Typical lifespan:
+
+<br>
+
 5-10 years
-</td>
 
-<td>
-Large capacity
-</td>
+</p>
 
-</tr>
+
+</div>
 
 
 
-</table>
+
+
+</div>
 
 
 </div>
@@ -1038,159 +1680,368 @@ Large capacity
 
 
 
-<div class="section">
+<div class="section" id="future">
 
 
 <h2>
-Future Experimental Storage
+🔬 Future Experimental Storage
 </h2>
 
 
 
 <p>
 
-These technologies are still in research or prototype stages.
+These technologies are being researched but are not widely available for consumers.
 
 </p>
 
 
 
-<table>
 
 
-<tr>
-
-<th>
-Technology
-</th>
-
-<th>
-Status
-</th>
-
-<th>
-Potential
-</th>
-
-</tr>
+<div class="grid">
 
 
 
 
-<tr>
-
-<td>
-🧬 DNA Storage
-</td>
-
-<td>
-Research
-</td>
-
-<td>
-Massive data density
-</td>
-
-</tr>
 
 
+<div class="card">
 
 
-<tr>
-
-<td>
+<h3>
 🪟 5D Quartz Crystal Storage
-</td>
-
-<td>
-Prototype
-</td>
-
-<td>
-Extremely long-lasting archives
-</td>
-
-</tr>
-
-
-
-
-<tr>
-
-<td>
-⚛ Atomic Storage
-</td>
-
-<td>
-Laboratory Research
-</td>
-
-<td>
-Information at atomic scale
-</td>
-
-</tr>
-
-
-
-
-<tr>
-
-<td>
-🧬 Molecular Storage
-</td>
-
-<td>
-Research
-</td>
-
-<td>
-Future ultra-dense storage
-</td>
-
-</tr>
-
-
-
-
-<tr>
-
-<td>
-🧲 Future Magnetic Storage
-</td>
-
-<td>
-Development
-</td>
-
-<td>
-Higher density hard drives
-</td>
-
-</tr>
-
-
-
-</table>
-
-
-</div>
-
-<div class="section">
-
-
-<h2>
-Recommended Storage Products
-</h2>
+</h3>
 
 
 <p>
 
-These recommendations include storage products for gaming, computers, NAS systems, backups, and long-term archives.
+Stores information using laser-written structures inside quartz glass.
+
+</p>
+
+
+<p>
+
+Potential:
+
+<br>
+
+Thousands of years of stability.
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+🧬 DNA Data Storage
+</h3>
+
+
+<p>
+
+Uses biological molecules to store digital information.
+
+</p>
+
+
+<p>
+
+Potential:
+
+<br>
+
+Extremely high data density.
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+⚛ Atomic Storage
+</h3>
+
+
+<p>
+
+Stores information by controlling individual atoms.
+
+</p>
+
+
+<p>
+
+Potential:
+
+<br>
+
+Extreme miniaturization.
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+🧪 Molecular Storage
+</h3>
+
+
+<p>
+
+Uses engineered molecules as information storage systems.
+
+</p>
+
+
+<p>
+
+Potential:
+
+<br>
+
+Future ultra-dense storage.
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+🧲 Future Magnetic Storage
+</h3>
+
+
+<p>
+
+Research into increasing the limits of hard drive density.
+
+</p>
+
+
+<p>
+
+Potential:
+
+<br>
+
+Higher capacity magnetic drives.
+
+</p>
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+</div>
+  
+
+<div class="section" id="products">
+
+
+<h2>
+🛒 Recommended Storage Products
+</h2>
+
+
+
+<p>
+
+These products are examples of storage solutions for gaming, computers, backups, NAS systems, and archives.
+
+</p>
+
+
+
+<p class="small">
 
 As an Amazon Associate, I earn from qualifying purchases.
 
 </p>
+
+
+
+
+
+
+
+
+<h3>
+Quick Comparison
+</h3>
+
+
+
+<table>
+
+
+<tr>
+
+<th>
+Product
+</th>
+
+<th>
+Type
+</th>
+
+<th>
+Speed / Capacity
+</th>
+
+<th>
+Best Use
+</th>
+
+</tr>
+
+
+
+
+<tr>
+
+<td>
+Samsung 990 Pro
+</td>
+
+<td>
+NVMe SSD
+</td>
+
+<td>
+Up to 7,450 MB/s - 2TB
+</td>
+
+<td>
+Gaming PCs
+</td>
+
+</tr>
+
+
+
+
+
+<tr>
+
+<td>
+WD_BLACK SN850X
+</td>
+
+<td>
+NVMe SSD
+</td>
+
+<td>
+Up to 7,300 MB/s - 2TB
+</td>
+
+<td>
+Gaming
+</td>
+
+</tr>
+
+
+
+
+
+<tr>
+
+<td>
+WD Red Plus
+</td>
+
+<td>
+NAS HDD
+</td>
+
+<td>
+8TB
+</td>
+
+<td>
+NAS systems
+</td>
+
+</tr>
+
+
+
+
+
+<tr>
+
+<td>
+Verbatim M-DISC
+</td>
+
+<td>
+Optical Archive
+</td>
+
+<td>
+25GB discs
+</td>
+
+<td>
+Long-term storage
+</td>
+
+</tr>
+
+
+
+</table>
+
+
+
+
+
 
 
 
@@ -1232,14 +2083,16 @@ Best for:
 
 <br>
 
-High-performance gaming PCs, fast loading and professional workloads.
+High-performance gaming computers.
 
 </p>
 
 
 
 <a class="amazon-button"
+
 href="https://www.amazon.ca/dp/B0BHJF2VRN/?tag=storagecompar-20"
+
 target="_blank">
 
 Check Price on Amazon
@@ -1248,6 +2101,7 @@ Check Price on Amazon
 
 
 </div>
+
 
 
 
@@ -1280,14 +2134,16 @@ Best for:
 
 <br>
 
-Gaming computers and performance builds.
+Gaming builds and fast loading.
 
 </p>
 
 
 
 <a class="amazon-button"
+
 href="https://www.amazon.ca/dp/B0FJLTT3D5/?tag=storagecompar-20"
+
 target="_blank">
 
 Check Price on Amazon
@@ -1296,6 +2152,7 @@ Check Price on Amazon
 
 
 </div>
+
 
 
 
@@ -1311,7 +2168,7 @@ Check Price on Amazon
 
 
 <h2>
-💻 Everyday Computer Storage
+💻 Computer Storage
 </h2>
 
 
@@ -1323,21 +2180,22 @@ Check Price on Amazon
 
 
 
+
 <div class="card">
 
 
 <h3>
-Samsung 870 EVO SATA SSD 1TB
+Samsung 870 EVO 1TB
 </h3>
 
 
 <p>
 
-Speed:
+Type:
 
 <br>
 
-Up to 560 MB/s
+SATA SSD
 
 </p>
 
@@ -1355,7 +2213,9 @@ Laptop and desktop upgrades.
 
 
 <a class="amazon-button"
+
 href="https://www.amazon.ca/dp/B08QBJ2YMG/?tag=storagecompar-20"
+
 target="_blank">
 
 Check Price on Amazon
@@ -1370,21 +2230,22 @@ Check Price on Amazon
 
 
 
+
 <div class="card">
 
 
 <h3>
-Samsung 870 EVO SATA SSD 2TB
+Samsung 870 EVO 2TB
 </h3>
 
 
 <p>
 
-Capacity:
+Type:
 
 <br>
 
-2TB
+SATA SSD
 
 </p>
 
@@ -1402,7 +2263,9 @@ Large everyday storage upgrades.
 
 
 <a class="amazon-button"
+
 href="https://www.amazon.ca/dp/B08QB93S6R/?tag=storagecompar-20"
+
 target="_blank">
 
 Check Price on Amazon
@@ -1418,21 +2281,22 @@ Check Price on Amazon
 
 
 
+
 <div class="card">
 
 
 <h3>
-Crucial MX500 1TB SATA SSD
+Crucial MX500 1TB
 </h3>
 
 
 <p>
 
-Speed:
+Type:
 
 <br>
 
-Up to 560 MB/s
+SATA SSD
 
 </p>
 
@@ -1443,14 +2307,16 @@ Best for:
 
 <br>
 
-Affordable computer upgrades.
+Affordable upgrades.
 
 </p>
 
 
 
 <a class="amazon-button"
+
 href="https://www.amazon.ca/dp/B07YD579WM/?tag=storagecompar-20"
+
 target="_blank">
 
 Check Price on Amazon
@@ -1459,6 +2325,7 @@ Check Price on Amazon
 
 
 </div>
+
 
 
 
@@ -1470,17 +2337,17 @@ Check Price on Amazon
 
 
 <h3>
-Crucial MX500 2TB SATA SSD
+Crucial MX500 2TB
 </h3>
 
 
 <p>
 
-Capacity:
+Type:
 
 <br>
 
-2TB
+SATA SSD
 
 </p>
 
@@ -1491,14 +2358,16 @@ Best for:
 
 <br>
 
-Large SATA storage upgrades.
+Large SATA storage.
 
 </p>
 
 
 
 <a class="amazon-button"
+
 href="https://www.amazon.ca/dp/B07YD5F561/?tag=storagecompar-20"
+
 target="_blank">
 
 Check Price on Amazon
@@ -1507,6 +2376,7 @@ Check Price on Amazon
 
 
 </div>
+
 
 
 
@@ -1534,11 +2404,12 @@ Check Price on Amazon
 
 
 
+
 <div class="card">
 
 
 <h3>
-WD Red Plus 8TB NAS HDD
+WD Red Plus 8TB
 </h3>
 
 
@@ -1548,25 +2419,16 @@ Designed for:
 
 <br>
 
-NAS systems and RAID storage.
-
-</p>
-
-
-<p>
-
-Capacity:
-
-<br>
-
-8TB
+NAS systems and RAID.
 
 </p>
 
 
 
 <a class="amazon-button"
+
 href="https://www.amazon.ca/dp/B0CP7CFNK4/?tag=storagecompar-20"
+
 target="_blank">
 
 Check Price on Amazon
@@ -1582,11 +2444,12 @@ Check Price on Amazon
 
 
 
+
 <div class="card">
 
 
 <h3>
-Seagate IronWolf 8TB NAS HDD
+Seagate IronWolf 8TB
 </h3>
 
 
@@ -1601,20 +2464,11 @@ Designed for:
 </p>
 
 
-<p>
-
-Capacity:
-
-<br>
-
-8TB
-
-</p>
-
-
 
 <a class="amazon-button"
+
 href="https://www.amazon.ca/dp/B0CLXGXHW3/?tag=storagecompar-20"
+
 target="_blank">
 
 Check Price on Amazon
@@ -1623,6 +2477,7 @@ Check Price on Amazon
 
 
 </div>
+
 
 
 
@@ -1637,9 +2492,8 @@ Check Price on Amazon
 
 
 <h2>
-🏛 Long-Term Archive Storage
+📀 Archive Storage
 </h2>
-
 
 
 
@@ -1661,18 +2515,16 @@ Verbatim M-DISC 5GB Pack
 
 <p>
 
-Best for:
-
-<br>
-
-Personal long-term optical archives.
+Long-term optical archive storage.
 
 </p>
 
 
 
 <a class="amazon-button"
+
 href="https://www.amazon.ca/dp/B0BTPRP94B/?tag=storagecompar-20"
+
 target="_blank">
 
 Check Price on Amazon
@@ -1681,6 +2533,7 @@ Check Price on Amazon
 
 
 </div>
+
 
 
 
@@ -1698,18 +2551,16 @@ Verbatim M-DISC 25GB Pack
 
 <p>
 
-Best for:
-
-<br>
-
-Higher capacity archival storage.
+Higher capacity archival discs.
 
 </p>
 
 
 
 <a class="amazon-button"
+
 href="https://www.amazon.ca/dp/B011PZALWA/?tag=storagecompar-20"
+
 target="_blank">
 
 Check Price on Amazon
@@ -1724,13 +2575,13 @@ Check Price on Amazon
 
 
 </div>
-
+  
 
 <div class="section">
 
 
 <h2>
-💾 Portable & Backup Storage
+🔌 Portable Storage
 </h2>
 
 
@@ -1760,20 +2611,11 @@ Large backups, photos, videos and archives.
 </p>
 
 
-<p>
-
-Capacity:
-
-<br>
-
-5TB
-
-</p>
-
-
 
 <a class="amazon-button"
+
 href="https://www.amazon.ca/dp/B07X41PWTY/?tag=storagecompar-20"
+
 target="_blank">
 
 Check Price on Amazon
@@ -1789,12 +2631,11 @@ Check Price on Amazon
 
 
 
-
 <div class="card">
 
 
 <h3>
-Samsung T7 Shield 2TB Portable SSD
+Samsung T7 Shield 2TB
 </h3>
 
 
@@ -1822,7 +2663,9 @@ Fast portable storage.
 
 
 <a class="amazon-button"
+
 href="https://www.amazon.ca/dp/B0874XWW23/?tag=storagecompar-20"
+
 target="_blank">
 
 Check Price on Amazon
@@ -1831,7 +2674,6 @@ Check Price on Amazon
 
 
 </div>
-
 
 
 
@@ -1843,24 +2685,22 @@ Check Price on Amazon
 
 
 <h3>
-Samsung T7 Shield 1TB Portable SSD
+Samsung T7 Shield 1TB
 </h3>
 
 
 <p>
 
-Best for:
-
-<br>
-
-Portable work files and gaming libraries.
+Portable SSD for everyday files and games.
 
 </p>
 
 
 
 <a class="amazon-button"
+
 href="https://www.amazon.ca/dp/B09YHQ3YZ5/?tag=storagecompar-20"
+
 target="_blank">
 
 Check Price on Amazon
@@ -1869,7 +2709,6 @@ Check Price on Amazon
 
 
 </div>
-
 
 
 
@@ -1896,20 +2735,11 @@ Up to 1,050 MB/s
 </p>
 
 
-<p>
-
-Best for:
-
-<br>
-
-Travel and professional media.
-
-</p>
-
-
 
 <a class="amazon-button"
+
 href="https://www.amazon.ca/dp/B08GV9M64L/?tag=storagecompar-20"
+
 target="_blank">
 
 Check Price on Amazon
@@ -1918,7 +2748,6 @@ Check Price on Amazon
 
 
 </div>
-
 
 
 
@@ -1945,20 +2774,11 @@ Up to 2,000 MB/s
 </p>
 
 
-<p>
-
-Best for:
-
-<br>
-
-High-speed portable storage.
-
-</p>
-
-
 
 <a class="amazon-button"
+
 href="https://www.amazon.ca/dp/B0GMX4CN7X/?tag=storagecompar-20"
+
 target="_blank">
 
 Check Price on Amazon
@@ -1985,18 +2805,18 @@ Check Price on Amazon
 
 
 
-<div class="section">
+<div class="section" id="calculator">
 
 
 <h2>
-Storage Calculator
+🧮 Storage Capacity Calculator
 </h2>
 
 
 
 <p>
 
-Enter storage size to estimate what it can hold.
+Enter storage capacity to estimate what it can hold.
 
 </p>
 
@@ -2005,7 +2825,7 @@ Enter storage size to estimate what it can hold.
 <input 
 type="number"
 id="storageAmount"
-placeholder="GB"
+placeholder="Storage in GB"
 >
 
 
@@ -2018,8 +2838,15 @@ Calculate Storage
 
 
 
-<p id="storageResult"></p>
+<div class="highlight">
 
+<p id="storageResult">
+
+Results will appear here.
+
+</p>
+
+</div>
 
 
 </div>
@@ -2032,7 +2859,7 @@ Calculate Storage
 
 
 
-<div class="section">
+<div class="section" id="games">
 
 
 <h2>
@@ -2040,23 +2867,37 @@ Calculate Storage
 </h2>
 
 
+
 <p>
 
-Select a console generation to estimate how many games fit.
+Choose a console generation to estimate how many games fit.
 
 </p>
 
 
 
-<input 
+<input
+
 type="number"
+
 id="gameStorage"
-placeholder="Storage GB"
+
+placeholder="Storage in GB"
+
 >
 
 
 
+
 <select id="consoleGeneration">
+
+
+<option value="0.01">
+
+Atari / Classic 8-bit
+
+</option>
+
 
 
 <option value="0.05">
@@ -2067,7 +2908,7 @@ Game Boy
 
 
 
-<option value="0.1">
+<option value="0.08">
 
 Game Boy Advance
 
@@ -2076,6 +2917,14 @@ Game Boy Advance
 
 
 <option value="0.5">
+
+NES / SNES
+
+</option>
+
+
+
+<option value="1">
 
 Nintendo 64
 
@@ -2086,6 +2935,14 @@ Nintendo 64
 <option value="1">
 
 PlayStation 1
+
+</option>
+
+
+
+<option value="2">
+
+Dreamcast
 
 </option>
 
@@ -2109,15 +2966,7 @@ Original Xbox
 
 <option value="1.5">
 
-Nintendo GameCube
-
-</option>
-
-
-
-<option value="25">
-
-PlayStation 3
+GameCube
 
 </option>
 
@@ -2131,15 +2980,64 @@ Xbox 360
 
 
 
-<option value="50">
+<option value="25">
 
-PS5 / Xbox Series X
+PlayStation 3
+
+</option>
+
+
+
+<option value="12">
+
+Wii
+
+</option>
+
+
+
+<option value="25">
+
+PS4
+
+</option>
+
+
+
+<option value="40">
+
+Xbox One
+
+</option>
+
+
+
+<option value="15">
+
+Nintendo Switch
+
+</option>
+
+
+
+<option value="70">
+
+PlayStation 5
+
+</option>
+
+
+
+<option value="70">
+
+Xbox Series X
 
 </option>
 
 
 
 </select>
+
 
 
 
@@ -2153,26 +3051,45 @@ Calculate Games
 
 
 
-<p id="gameResult"></p>
+<div class="highlight">
 
+
+<p id="gameResult">
+
+Results will appear here.
+
+</p>
 
 
 </div>
 
 
 
+</div> 
 
+  
 
-
-
-
-
-<div class="section">
+<div class="section" id="media">
 
 
 <h2>
-Popular Media Storage Examples
+🎬 Popular Media Storage Examples
 </h2>
+
+
+<p>
+
+Approximate storage depends heavily on compression, resolution, and file quality.
+
+</p>
+
+
+
+
+
+<h3>
+🎥 Movies
+</h3>
 
 
 
@@ -2184,20 +3101,163 @@ Popular Media Storage Examples
 
 <div class="card">
 
+
 <h3>
-📺 The Simpsons Complete Series
+Avatar: The Way of Water
 </h3>
+
 
 <p>
 
-Estimated archive size:
+4K high-quality archive:
 
 </p>
+
+
+<h3>
+50GB - 100GB+
+</h3>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+Avengers: Endgame
+</h3>
+
+
+<p>
+
+4K Blu-ray quality:
+
+</p>
+
+
+<h3>
+60GB - 100GB
+</h3>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+Lord of the Rings Trilogy
+</h3>
+
+
+<p>
+
+Extended 4K collection:
+
+</p>
+
+
+<h3>
+200GB - 300GB+
+</h3>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+Star Wars Complete Collection
+</h3>
+
+
+<p>
+
+HD/4K archive:
+
+</p>
+
+
+<h3>
+500GB+
+</h3>
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<h3>
+📺 TV Shows
+</h3>
+
+
+
+<div class="grid">
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+The Simpsons Complete Series
+</h3>
+
+
+<p>
+
+35+ seasons.
+
+</p>
+
+
+<p>
+
+Estimated archive:
+
+</p>
+
 
 <h3>
 1TB - 5TB+
 </h3>
 
+
 </div>
 
 
@@ -2208,43 +3268,249 @@ Estimated archive size:
 
 <div class="card">
 
+
 <h3>
-📖 One Piece Manga Collection
+Game of Thrones
 </h3>
+
 
 <p>
 
-Digital size:
+Complete HD/4K archive:
 
 </p>
+
+
+<h3>
+500GB - 1TB+
+</h3>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+Breaking Bad Complete Series
+</h3>
+
+
+<p>
+
+HD archive:
+
+</p>
+
+
+<h3>
+100GB - 300GB
+</h3>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+Friends Complete Series
+</h3>
+
+
+<p>
+
+HD archive:
+
+</p>
+
+
+<h3>
+200GB+
+</h3>
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<h3>
+📚 Books
+</h3>
+
+
+
+
+<div class="grid">
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+Harry Potter Complete Books
+</h3>
+
+
+<p>
+
+Text only:
+
+</p>
+
+
+<h3>
+Less than 10MB
+</h3>
+
+
+<p>
+
+With images and formatting:
+
+Under 100MB
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+Lord of the Rings Trilogy
+</h3>
+
+
+<p>
+
+Digital text:
+
+</p>
+
+
+<h3>
+Under 20MB
+</h3>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+Encyclopedia Collection
+</h3>
+
+
+<p>
+
+Large illustrated collection:
+
+</p>
+
+
+<h3>
+5GB - 50GB
+</h3>
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<h3>
+📖 Manga & Comics
+</h3>
+
+
+
+
+<div class="grid">
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+One Piece Manga
+</h3>
+
+
+<p>
+
+100+ volumes.
+
+</p>
+
+
+<p>
+
+Digital scans:
+
+</p>
+
 
 <h3>
 2GB - 10GB
 </h3>
 
-</div>
-
-
-
-
-
-
-
-<div class="card">
-
-<h3>
-🎬 One Piece Anime
-</h3>
-
-<p>
-
-1000+ episodes:
-
-</p>
-
-<h3>
-500GB - 5TB+
-</h3>
 
 </div>
 
@@ -2256,46 +3522,58 @@ Digital size:
 
 <div class="card">
 
+
 <h3>
-⚡ Harry Potter Books
+Marvel / DC Comic Collections
 </h3>
+
 
 <p>
 
-Seven novels:
+Large digital libraries:
 
 </p>
 
+
 <h3>
-Under 100MB
+100GB+
 </h3>
 
+
+</div>
+
+
+
+
+
+</div>
+
+
 </div>
 
 
 
 
 
-</div>
 
 
-</div>
 
 
-<div class="section">
+<div class="section" id="research">
 
 
 <h2>
-Scientific Research & Future Storage Papers
+🔬 Scientific Research & Future Storage Papers
 </h2>
 
 
 
 <p>
 
-Research papers and references about future storage technologies.
+Research about experimental and future storage technologies.
 
 </p>
+
 
 
 
@@ -2316,12 +3594,14 @@ Research papers and references about future storage technologies.
 
 <p>
 
-Laser-written nanostructures inside quartz glass designed for extremely long-term data preservation.
+Laser-written data storage inside quartz glass.
 
 </p>
 
 
+
 <a href="https://www.phys.soton.ac.uk/node/3750"
+
 target="_blank">
 
 University of Southampton Research →
@@ -2347,16 +3627,17 @@ University of Southampton Research →
 
 <p>
 
-Research into storing information at the atomic scale.
+Research into storing information at atomic scale.
 
 </p>
 
 
 
 <a href="https://www.researchgate.net/publication/309071830_Atomic_level_data_storage"
+
 target="_blank">
 
-Read Research →
+Atomic Storage Research →
 
 </a>
 
@@ -2373,22 +3654,23 @@ Read Research →
 
 
 <h3>
-🧬 Molecular Data Storage
+🧬 Molecular Storage
 </h3>
 
 
 <p>
 
-Research into molecular systems for extremely dense information storage.
+Research into molecular systems for dense information storage.
 
 </p>
 
 
 
 <a href="https://www.nature.com/articles/s41598-022-18108-9"
+
 target="_blank">
 
-Nature Scientific Report →
+Nature Scientific Reports →
 
 </a>
 
@@ -2411,13 +3693,14 @@ Nature Scientific Report →
 
 <p>
 
-Research into increasing the density limits of magnetic recording.
+Research into increasing magnetic storage limits.
 
 </p>
 
 
 
 <a href="https://ieeexplore.ieee.org/document/5389136"
+
 target="_blank">
 
 IEEE Research →
@@ -2443,16 +3726,17 @@ IEEE Research →
 
 <p>
 
-DNA storage could potentially store massive amounts of information for extremely long periods.
+DNA molecules as extremely dense information storage.
 
 </p>
 
 
 
 <a href="https://www.science.org/doi/10.1126/science.1226355"
+
 target="_blank">
 
-Science DNA Storage Paper →
+DNA Storage Research →
 
 </a>
 
@@ -2462,8 +3746,128 @@ Science DNA Storage Paper →
 
 
 
+
 </div>
 
+
+</div>
+
+
+<div class="section" id="faq">
+
+
+<h2>
+❓ Frequently Asked Questions
+</h2>
+
+
+
+<div class="card">
+
+
+<h3>
+What is the fastest storage available?
+</h3>
+
+
+<p>
+
+Modern NVMe SSDs are among the fastest consumer storage devices, reaching over 10,000 MB/s in some models.
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+What is the longest lasting storage?
+</h3>
+
+
+<p>
+
+Currently available options include archival optical storage such as M-DISC and specialized archival systems. Experimental technologies like quartz crystal and DNA storage may last thousands of years but are not widely available.
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+Is NAS better than cloud storage?
+</h3>
+
+
+<p>
+
+NAS gives you physical control and large local capacity. Cloud storage provides remote access and easier off-site backup.
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+How much storage does the human brain have?
+</h3>
+
+
+<p>
+
+Some estimates compare the brain to approximately petabyte-scale storage, although the comparison is not a direct equivalent to computer memory.
+
+</p>
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="ad">
+
+Advertisement Space
+
+<br>
+
+300x250
 
 </div>
 
@@ -2481,33 +3885,28 @@ Science DNA Storage Paper →
 function calculateStorage(){
 
 
-let gb =
-Number(document.getElementById("storageAmount").value);
+let gb = Number(
+
+document.getElementById("storageAmount").value
+
+);
 
 
 
-let photos =
-Math.floor(gb * 250);
+let photos = Math.floor(gb * 250);
+
+
+let books = Math.floor(gb * 200);
+
+
+let movies = Math.floor(gb / 5);
+
+
+let games = Math.floor(gb / 50);
 
 
 
-let books =
-Math.floor(gb * 200);
-
-
-
-let movies =
-Math.floor(gb / 5);
-
-
-
-let games =
-Math.floor(gb / 100);
-
-
-
-let result =
-document.getElementById("storageResult");
+let result = document.getElementById("storageResult");
 
 
 
@@ -2529,42 +3928,28 @@ return;
 result.innerHTML = `
 
 
-<h3>
-
-${gb}GB could store approximately:
-
-</h3>
-
+<h3>${gb}GB could store approximately:</h3>
 
 
 <ul>
 
-
 <li>
-
 📷 ${photos.toLocaleString()} photos
-
 </li>
 
 
 <li>
-
-📖 ${books.toLocaleString()} ebooks
-
+📚 ${books.toLocaleString()} ebooks
 </li>
 
 
 <li>
-
 🎬 ${movies.toLocaleString()} HD movies
-
 </li>
 
 
 <li>
-
-🎮 ${games.toLocaleString()} modern games
-
+🎮 ${games.toLocaleString()} games
 </li>
 
 
@@ -2584,24 +3969,27 @@ ${gb}GB could store approximately:
 
 
 
+
 function calculateGames(){
 
 
-let storage =
+let storage = Number(
 
-Number(document.getElementById("gameStorage").value);
+document.getElementById("gameStorage").value
 
-
-
-let gameSize =
-
-Number(document.getElementById("consoleGeneration").value);
+);
 
 
 
-let result =
+let gameSize = Number(
 
-document.getElementById("gameResult");
+document.getElementById("consoleGeneration").value
+
+);
+
+
+
+let result = document.getElementById("gameResult");
 
 
 
@@ -2609,7 +3997,7 @@ if(storage <= 0){
 
 
 result.innerHTML =
-"Please enter storage size.";
+"Please enter a valid storage amount.";
 
 
 return;
@@ -2619,9 +4007,7 @@ return;
 
 
 
-let games =
-
-Math.floor(storage / gameSize);
+let games = Math.floor(storage / gameSize);
 
 
 
@@ -2635,10 +4021,9 @@ Approximately ${games.toLocaleString()} games
 </h3>
 
 
-
 <p>
 
-Average game size varies depending on compression and platform.
+Average game size varies depending on compression, region, and updates.
 
 </p>
 
@@ -2671,9 +4056,10 @@ Average game size varies depending on compression and platform.
 </p>
 
 
+
 <p>
 
-Complete guide to storage technology, archival systems and future research.
+Complete encyclopedia of storage technology, archives, and future data systems.
 
 </p>
 
@@ -2708,6 +4094,7 @@ enzobetito@gmail.com
 
 
 </main>
+
 
 
 </body>
